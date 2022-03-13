@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import { NextPage } from 'next'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
@@ -12,5 +12,4 @@ const Home: NextPage = () => {
     </div>
   )
 }
-
 export default Home
