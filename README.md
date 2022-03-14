@@ -11,6 +11,7 @@ yarn dev
 
 $ yarn test
 $ yarn test:watch
+$ yarn test -u
 
 <h1>Comando para executar eslint</h1>
 

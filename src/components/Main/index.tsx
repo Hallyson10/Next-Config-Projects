@@ -1,7 +1,7 @@
 import * as Style from './styles'
 
 export const Main = ({
-  title = 'React Avançado',
+  title = 'React Avançado by Hallyson Miranda',
   description = 'ReactJs, NextJs e Styled Components'
 }) => (
   <Style.Wrapper>
