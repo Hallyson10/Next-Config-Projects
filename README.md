@@ -31,3 +31,7 @@ $ yarn build
 <h1>Iniciar em produção</h1>
 
 $ yarn start
+
+<h1>Generator Automatic Component</h1>
+
+$ yarn generate {nameComponent}

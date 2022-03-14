@@ -10,6 +10,8 @@
     "postinstall": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "test:ci": "jest --runInBand",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
@@ -55,6 +57,7 @@
     "jest": "^26.1.0",
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^10.2.11",
+    "plop": "^3.0.5",
     "prettier": "^2.0.5"
   }
 }
